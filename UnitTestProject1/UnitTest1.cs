@@ -6,10 +6,18 @@ namespace UnitTestProject1
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethodIsTrue()
         {
             bool a = true;
             Assert.IsTrue(a);
         }
+
+        [TestMethod]
+        public void TestMethodIsFalse()
+        {
+            bool a = false;
+            Assert.IsFalse(a);
+        }
+
     }
 }
