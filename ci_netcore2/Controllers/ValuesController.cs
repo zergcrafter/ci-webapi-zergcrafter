@@ -40,6 +40,7 @@ namespace ci_netcore2.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            //
         }
     }
 }
