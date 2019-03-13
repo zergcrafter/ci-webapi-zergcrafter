@@ -41,6 +41,7 @@ namespace ci_netcore2.Controllers
         public void Delete(int id)
         {
             //
+            //
         }
     }
 }
